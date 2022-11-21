@@ -15,6 +15,9 @@
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+.form-title{
+    margin-top: 0;
+}
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
@@ -48,6 +51,11 @@
   color: #b3b3b3;
   font-size: 12px;
 }
+.form .message-about {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 18px !important;
+  }
 .form .message a {
   color: #4CAF50;
   text-decoration: none;

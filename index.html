@@ -2,28 +2,33 @@
 
 <head>
     <title>Document</title>
-    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
     <div class="login-page">
         <div class="form">
+            <div>
+                <img src="./assets/images/qreal.png" alt="Aliens" width="200px">
+            </div>
             <form class="register-form">
-                <input type="text" placeholder="name" />
-                <input type="password" placeholder="password" />
-                <input type="text" placeholder="email address" />
-                <button>create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
+                <p class="message message-about">Made by QReal Aliens <a href="#">Go Back</a></p>
             </form>
             <form class="login-form">
-                <input type="text" placeholder="username" />
-                <input type="password" placeholder="password" />
-                <button>login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                <h1 class="form-title">QReal Contact Form</h1>
+                <input type="text" placeholder="name" required />
+                <input type="text" placeholder="surname" required />
+                <input type="email" placeholder="email address" required />
+                <button>Send</button>
+                <p class="message">Git flow version 1.0.0 <a href="#">About Us</a></p>
             </form>
         </div>
     </div>
 </body>
+
+<footer>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+</footer>
 
 </html>
